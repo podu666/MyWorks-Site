@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://img2.akspic.ru/crops/6/3/6/9/7/179636/179636-pejzazhi_gor-most-sinij-gornyj_relef-gora-1920x1080.jpg);
+}
+
+.text {
+    font-family: 'Arial', sans-serif; 
+    font-size: 3em; 
+    color: #2c3e50; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin: 20px 0; 
+    padding: 5px; 
+    background: linear-gradient(45deg, #3498db, #8e44ad); /* градиент */
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* тень */
+    transition: transform 0.3s, color 0.3s; 
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    text-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
+}
+
+a:active{
+    color: #1abc9c;
+    transform: scale(0.98);
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #2c3e50;
+}
