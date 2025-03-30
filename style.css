@@ -1,19 +1,19 @@
 body {
-    background-image: url(https://img2.akspic.ru/crops/6/3/6/9/7/179636/179636-pejzazhi_gor-most-sinij-gornyj_relef-gora-1920x1080.jpg);
+    background-image: url(https://images.wallpaperscraft.ru/image/single/ruchej_voda_ulitsa_1379018_1920x1080.jpg);
 }
 
 .text {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3em; 
-    color: #2c3e50; 
+    color: black; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
     margin: 20px 0; 
     padding: 5px; 
-    background: linear-gradient(45deg, #3498db, #8e44ad); /* градиент */
+    background: linear-gradient(45deg, white,#3498db,#1abc9c);
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* тень */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, color 0.3s; 
 }
 
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #2980b9;
+    color: white;
     text-shadow: 0 0 5px rgba(52, 152, 219, 0.7);
 }
 
