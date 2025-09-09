@@ -1,16 +1,16 @@
 body {
-    background-image: url(https://images.wallpaperscraft.ru/image/single/ruchej_voda_ulitsa_1379018_1920x1080.jpg);
+    background-image: url(https://img3.akspic.ru/crops/0/2/0/4/0/104020/104020-peyzash-utro-vodoem-okno-yaponskij_sad_kamnej-1920x1080.jpg);
 }
 
 .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3em; 
-    color: black; 
+    color: rgb(255, 255, 255); 
     text-transform: uppercase; 
     letter-spacing: 2px; 
     margin: 20px 0; 
     padding: 5px; 
-    background: linear-gradient(45deg, white,#3498db,#1abc9c); /* градиент */
+    background: linear-gradient(45deg, white,#ffffff,#ffffff); /* градиент */
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* тень */
@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #3498db;
+    color: #ffffff;
     font-weight: bold;
     transition: color 0.3s, text-shadow 0.3s;
 }
